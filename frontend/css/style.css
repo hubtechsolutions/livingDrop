@@ -100,7 +100,7 @@ header .container {
 
 /* BUTTONS */
 
-.btn {
+.cbtn {
   display: inline-block;
   padding: 1rem 2rem;
   background: var(--btn-bg-color);
@@ -118,10 +118,10 @@ header .container {
   text-decoration: none;
   outline: none;
 }
-.btn:hover {
+.cbtn:hover {
   box-shadow: none;
 }
-.btn:disabled {
+.cbtn:disabled {
   cursor: default;
 }
 
