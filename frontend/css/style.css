@@ -263,6 +263,8 @@ section {
   align-items: center;
   gap: 3rem;
   margin: auto;
+  background-color: aqua;
+    color: red;
 }
 
 .input-number {
