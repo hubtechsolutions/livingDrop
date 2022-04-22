@@ -9,7 +9,7 @@
         color: #888dac!important;
     } */
 :root {
-  --font-primary: "Inter", sans-serif;
+  --font-primary: "Syne", sans-serif;
 /*   --font-secondary: "Arvo", serif; */
 /*   --font-code: "Roboto", monospace; */
   --bg-color: #03041a;
@@ -273,8 +273,7 @@ section {
     border: 0;
     color: #fff;
     font-size: 14px!important;
-  font-family:roboto,sans-serif!important
-  padding: 14px 50px;
+    padding: 14px 50px;
     transition: all .3s;
     width: 245px;
 }
