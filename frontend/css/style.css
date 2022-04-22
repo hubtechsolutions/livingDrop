@@ -36,7 +36,7 @@ body {
   display: flex;
   flex-direction: column;
 /*   max-width: 960px; */
-   max-width: 1140px;
+   max-width: 1280px;
   margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: center;
@@ -251,7 +251,8 @@ section {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: var(--accent-color);
+/*   background-color: var(--accent-color); */
+  background: #000;
   border-radius: 5px;
 }
 
