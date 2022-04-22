@@ -404,3 +404,10 @@ section {
 .hidden {
   display: none;
 }
+
+
+/* new style start */
+.blue-greadent-btn{
+  background-image: linear-gradient(160deg, #1f00fc 0%, #e026de 100%)!important;
+}
+/* new style end */
