@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- favicon -->
     <link
       rel="apple-touch-icon"
@@ -30,7 +35,6 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <p> THIS IS A TEST</p>
     <header>
       <div class="container">
         <div class="logo">
@@ -115,6 +119,7 @@
           class="hero-btn btn"
           ><span>Join the Catmmunity</span>
         </a>
+        
         <div id="mintContainer" class="mint-container hidden">
           <div class="info-container">
             <div>
@@ -170,6 +175,108 @@
         </a>
       </div>
     </section>
+
+    <section class="sec-pd">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="countdown card show-card">
+              <div id="countdown" data-date="" style="/* display: none; */">
+                <ul class="count-down" data-date="">
+                  <li class="clock-item">
+                    <span class="count-number days">20</span>
+                    <p class="count-text">Days</p>
+                  </li>
+      
+                  <li class="clock-item">
+                    <span class="count-number hours">20</span>
+                    <p class="count-text">Hour</p>
+                  </li>
+      
+                  <li class="clock-item">
+                    <span class="count-number minutes">20</span>
+                    <p class="count-text">Min</p>
+                  </li>
+      
+                  <li class="clock-item">
+                    <span class="count-number seconds">20</span>
+                    <p class="count-text">Sec</p>
+                  </li>
+                </ul>
+                <h2 id="subHeading">Pre-Sale Countdown</h2>
+              </div>
+              <h1 id="mainHeading">Public Minting Open!!</h1>
+              <p id="mainText">No whitelist needed. Public minting is now open! 🎉</p>
+              <a id="actionButton" href="https://discord.com" target="_blank" rel="noopener noreferrer" class="hero-btn btn hidden"><span>Join the Catmmunity</span>
+              </a>
+              <div id="mintContainer" class="mint-container">
+                <div class="info-container">
+                  <div>
+                    <h3>Supply</h3>
+                    <p id="totalSupply">44</p>
+                  </div>
+                  <div>
+                    <h3>Price Per Mint</h3>
+                    <p id="pricePerMint">0.075 MATIC</p>
+                  </div>
+                  <div>
+                    <h3>Max</h3>
+                    <p id="maxPerMint">4</p>
+                  </div>
+                </div>
+                <div class="mint-qty">
+                  <span>
+                    <button class="input-number-decrement btn" id="mintDecrement">–</button>
+                    <input id="mintInput" class="input-number btn" type="number" value="1" min="1" max="4">
+                    <button class="input-number-increment btn" id="mintIncrement">+</button>
+                  </span>
+                  <button id="setQtyMax" class="btn">SET MAX</button>
+                </div>
+                <div class="total-price-container">
+                  <h3>Total</h3>
+                  <p id="totalPrice">0.075 MATIC</p>
+                </div>
+                <button id="mintButton" class="hero-btn btn mint-btn">Mint Your NFT NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">right</div>
+        </div>
+          <div class="row">
+              <div class="col-lg-6 col-xl-6 col-md-12 col-sm-12">
+                  <div class="">
+
+                      <div class="font-112 mutedoverlay-text" style="color: #101126;">Rare Item</div>
+                      <p style="color:#e026ed;">Project No. 1127</p>
+
+
+                      <h2 class="text-white ">Vaporwave Sculpture</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                          Duis aute irure dolor in reprehenderit in voluptate dolore magna aliqua</p>
+                      <div class="mt-5 mb-5" style="margin: 0 0 0 auto;display: table;">
+                          <button class="btn greadient-btn mr-2">MINT NOW</button><span class="text-white" style="font-style: italic;">0/Minted</span>
+                      </div>
+                      <div class="d-flex mt-5 mb-5" style="justify-content: space-evenly;">
+                          <button class="btn greadient-btn ">Opensea</button>
+                          <button class="btn greadient-btn ">Rarity</button>
+                          <button class="btn greadient-btn ">Analytics</button>
+                      </div>
+
+                  </div>
+
+              </div>
+              <div class="col-lg-6 col-xl-6 col-md-12 col-sm-12">
+                  <div class="Vertcenter" style="padding: 50px;background-color: transparent;background-image: linear-gradient(180deg, #FFFFFF00 16%, #E026DE1A 100%); ">
+                      <video height="100% " width="100% " poster=" " autoplay=" " loop=" " muted="">
+                        <!--<source src="http://ec2-54-243-15-31.compute-1.amazonaws.com/wp-content/uploads/2022/03/motion-2.mp4 "> -->
+                        <source src="video/motion-with-audio.mp4 ">
+                        <p class="warning ">Your browser does not support HTML5 video.</p>
+                     </video>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
 
     <div id="spinner" class="dot-spin"></div>
 
