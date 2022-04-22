@@ -32,15 +32,16 @@ body {
   font-family: var(--font-primary);
 }
 
-/* .container {
+.container {
   display: flex;
   flex-direction: column;
-  max-width: 960px;
+/*   max-width: 960px; */
+   max-width: 1140px;
   margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: center;
   overflow: hidden;
-} */
+} 
 
 /* HEADER */
 
