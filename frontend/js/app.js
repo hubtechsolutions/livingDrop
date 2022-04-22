@@ -168,7 +168,7 @@ async function loadInfo() {
     mainHeading.innerText = h1_public_mint;
     mainText.innerText = p_public_mint;
     actionButton.classList.add('hidden');
-//    mintButton.innerText = button_public_mint;
+    mintButton.innerText = button_public_mint;
     mintContainer.classList.remove('hidden');
     setTotalPrice();Text = document.getElementById("mainText");
   } else if (presaleMintActive) {
