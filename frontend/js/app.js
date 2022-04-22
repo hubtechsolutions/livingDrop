@@ -1,14 +1,14 @@
 let accounts;
 
-// METAMASK CONNECTION
-window.addEventListener("DOMContentLoaded", async () => {
-  const welcomeH1 = document.getElementById("welcomeH1");
-  const welcomeH2 = document.getElementById("welcomeH2");
-  const welcomeP = document.getElementById("welcomeP");
+  // METAMASK CONNECTION
+  window.addEventListener("DOMContentLoaded", async () => {
+  //   const welcomeH1 = document.getElementById("welcomeH1");
+  //   const welcomeH2 = document.getElementById("welcomeH2");
+    // const welcomeP = document.getElementById("welcomeP");
 
-  welcomeH1.innerText = welcome_h1;
-  welcomeH2.innerText = welcome_h2;
-  welcomeP.innerHTML = welcome_p;
+    // welcomeH1.innerText = welcome_h1;
+    // welcomeH2.innerText = welcome_h2;
+    // welcomeP.innerHTML = welcome_p;
 
   if (window.ethereum) {
     window.web3 = new Web3(window.ethereum);
@@ -158,8 +158,7 @@ async function loadInfo() {
   const presaleMintActive = await contract.methods.presaleActive().call();
   const mainHeading = document.getElementById("mainHeading");
   const subHeading = document.getElementById("subHeading");
-  const mainText = document.getElementById("mainText");
-  const actionButton = document.getElementById("actionButton");
+  const mainctionButton = document.getElementById("actionButton");
   const mintContainer = document.getElementById("mintContainer");
   const mintButton = document.getElementById("mintButton");
   const spinner = document.getElementById("spinner");
@@ -171,7 +170,8 @@ async function loadInfo() {
     actionButton.classList.add('hidden');
     mintButton.innerText = button_public_mint;
     mintContainer.classList.remove('hidden');
-    setTotalPrice();
+    setTotalPrice();Text = document.getElementById("mainText");
+  const a
   } else if (presaleMintActive) {
     startTime = window.info.runtimeConfig.publicMintStart;
     mainHeading.innerText = h1_presale_mint;
