@@ -415,4 +415,14 @@ section {
   background-image: linear-gradient(160deg, #1f00fc 0%, #e026de 100%)!important;
   color:#fff;
 }
+.mutedoverlay-text {
+    font-family: Syne, sans-serif!important;
+    font-weight: 700;
+    line-height: .5;
+    letter-spacing: 3px;
+}
+.font-112 {
+    font-size: 112px;
+    font-family: Syne, sans-serif!important;
+}
 /* new style end */
