@@ -110,7 +110,7 @@ header .container {
   display: inline-block;
   padding: 0rem 1rem;
   /* background: var(--btn-bg-color); */
-  color: var(--highlight-color);
+  color: var(--accent-color);
   font-family: var(--font-secondary);
 /*  font-style: italic; */
   font-weight: bold;
@@ -118,14 +118,16 @@ header .container {
   text-align: center;
   text-transform: capitalize;
   transition: all 0.3s ease;
-  box-shadow: var(--header-shadow);
+  box-shadow: none;
   cursor: pointer;
   position: relative;
   text-decoration: none;
   outline: none;
+  border-color: #be7efe5e;
 }
 .cbtn:hover {
-  box-shadow: none;
+  box-shadow: var(--header-shadow);
+  color: var(--highlight-color);
 }
 .cbtn:disabled {
   cursor: default;
