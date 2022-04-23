@@ -256,9 +256,8 @@ section {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-/*   background-color: var(--accent-color); */
-  background: #000;
-  border-radius: 5px;
+background-color: var(--accent-color); 
+border-radius: 5px;
 }
 
 .mint-qty > span {
