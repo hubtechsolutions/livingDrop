@@ -17,7 +17,7 @@
   --font-color: #888dac;
   --highlight-color:#E026DE;
   --btn-bg-color: #ffffff;
-  --accent-color2: #08092D;
+  --accent-color2: #0b0c3a;
   --accent-color: #be7efe;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
@@ -257,7 +257,7 @@ section {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-background-color: var(--accent-color); 
+background-color: var(--accent2-color); 
 border-radius: 5px;
 }
 
