@@ -283,7 +283,7 @@ border-radius: 5px;
     font-size: 14px!important;
     padding: 14px 50px;
     transition: all .3s;
-    width: 245px;
+    /* width: 245px; */
 }
 
 .max-btn{
