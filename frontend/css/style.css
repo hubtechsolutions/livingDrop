@@ -15,8 +15,9 @@
   --bg-color: #03041a;
 /*   --bg-color-transparent: #00163f80; */
   --font-color: #888dac;
+  --highlight-color:#E026DE;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --accent-color: #08092D;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -106,13 +107,13 @@ header .container {
 
 .cbtn {
   display: inline-block;
-  padding: 1rem 2rem;
-  background: var(--btn-bg-color);
-  color: var(--accent-color);
+  padding: 0rem 1rem;
+  /* background: var(--btn-bg-color); */
+  color: var(--highlight-color);
   font-family: var(--font-secondary);
-  font-style: italic;
+/*  font-style: italic; */
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 2rem;
   text-align: center;
   text-transform: capitalize;
   transition: all 0.3s ease;
