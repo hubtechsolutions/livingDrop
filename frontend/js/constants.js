@@ -1,8 +1,8 @@
 const contractAddress = "0x45947D338F9c11e8Ca2Ff8d4F903B166E471c411"; //Replace with your own contract address
 const chain = 'polygon'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to Fredo's NFT drop!!";
-const welcome_h2 = "Connect to MetaMask to Get Started ";
+const welcome_h1 = "";
+const welcome_h2 = "";
 const welcome_p = 'The Fredo Bang NFT decentralized is a limted NFT drop -- no more than 44 will ever be minted.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
