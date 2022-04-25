@@ -463,4 +463,8 @@ border-radius: 5px;
     --bs-text-opacity: 1;
     color: rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important;
 }
+
+.sec-pd {
+    padding: 100px 0;
+}
 /* new style end */
