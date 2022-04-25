@@ -453,4 +453,14 @@ border-radius: 5px;
     font-size: 112px;
     font-family: Syne, sans-serif!important;
 }
+
+.text-greadient {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(110deg,#1f00fc,#e026de);
+}
+.text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important;
+}
 /* new style end */
