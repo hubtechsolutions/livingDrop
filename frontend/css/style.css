@@ -171,7 +171,7 @@ header .container {
   transform: translateX(0);
 }
 
-/* COUNTDOWN SECTION */
+/* COUNTDOWN SECTION 
 
 section {
   flex: 1 1 auto;
@@ -241,7 +241,7 @@ section {
   font-family: var(--font-secondary);
   margin-bottom: 2rem;
   text-align: center;
-}
+} */
 
 /* MINT CONTAINER */
 
