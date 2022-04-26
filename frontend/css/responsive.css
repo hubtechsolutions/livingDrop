@@ -31,8 +31,7 @@
    .mq-btn-dflex {
       flex-direction: column;
       text-align: center;
-      margin: 0 auto;
-      display: table;
+      justify-content: space-around;
     }
      .mq-twofacepd{
       padding:15px;
@@ -49,8 +48,7 @@
    .mq-btn-dflex {
       display: flex;
       text-align: center;
-      margin: 0 auto;
-      display: table;
+      justify-content: space-around;
     }
     .mq-twofacepd{
       padding:50px;
