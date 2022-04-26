@@ -29,10 +29,13 @@
         padding: 40px 0 40px 0px;
     }
    .mq-btn-dflex {
-      display: column;
+      flex-direction: column;
       text-align: center;
       margin: 0 auto;
       display: table;
+    }
+     .mq-twofacepd{
+      padding:15px;
     }
 }
 
@@ -48,6 +51,9 @@
       text-align: center;
       margin: 0 auto;
       display: table;
+    }
+    .mq-twofacepd{
+      padding:50px;
     }
 }
 
