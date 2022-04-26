@@ -28,6 +28,12 @@
     .sec-pd {
         padding: 40px 0 40px 0px;
     }
+   .mq-btn-dflex {
+      display: column;
+      text-align: center;
+      margin: 0 auto;
+      display: table;
+    }
 }
 
 @media(min-width:768px) {
@@ -36,6 +42,12 @@
     }
     .subscription-bg {
         padding: 100px 15px;
+    }
+   .mq-btn-dflex {
+      display: flex;
+      text-align: center;
+      margin: 0 auto;
+      display: table;
     }
 }
 
