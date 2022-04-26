@@ -213,7 +213,7 @@
     }
     
     .subscription-bg {
-        background-image: linear-gradient(360deg, #04052A 0%, #00000052 100%), url('/src/assets/images/subscriptionbg.jpg');
+        background-image: linear-gradient(360deg, #04052A 0%, #00000052 100%), url('/images/subscriptionbg.jpg');
         background-position: center center;
         background-repeat: repeat;
         background-size: contain;
