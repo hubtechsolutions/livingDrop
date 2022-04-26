@@ -313,7 +313,7 @@ border-radius: 5px;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 1rem 0 2rem;
+  padding: 1rem 0 0rem;
 }
 
 .total-price-container p {
