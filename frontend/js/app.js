@@ -74,7 +74,7 @@ const updateConnectStatus = async () => {
     window.contract = new web3.eth.Contract(abi, contractAddress);
     loadInfo();
   } else {
-    document.getElementById("mintButton").style.visibility="none";
+    document.getElementById("mintButton").style.display="none";
     onboardButton.innerText = "Connect MetaMask!";
     // HIDE SPINNER
     spinner.classList.add('hidden');
