@@ -50,9 +50,9 @@
       text-align: center;
       justify-content: space-around;
     }
-    .mq-twofacepd{
+/*     .mq-twofacepd{
       padding:50px;
-    }
+    } */
 }
 
 @media(max-width: 991.5px) {
