@@ -63,7 +63,6 @@ const updateConnectStatus = async () => {
       notConnected.classList.add('show-not-connected');
       
     };
-    alert("hey there");
       document.getElementById("mintButton").style.display="none";
   } else if (accounts && accounts.length > 0) {
     onboardButton.innerText = `✔ ...${accounts[0].slice(-4)}`;
