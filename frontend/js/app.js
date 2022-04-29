@@ -61,6 +61,7 @@ const updateConnectStatus = async () => {
       spinner.classList.add('hidden');
       notConnected.classList.remove('hidden');
       notConnected.classList.add('show-not-connected');
+      document.getElementById("mintButton").style.display="none";
     };
   } else if (accounts && accounts.length > 0) {
     onboardButton.innerText = `✔ ...${accounts[0].slice(-4)}`;
